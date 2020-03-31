@@ -2566,6 +2566,7 @@ input, select, textarea {
 		}
 
 		.work-item p {
+      font-size: 16px;
 			line-height: 1.5em;
 			margin: 0;
 		}
