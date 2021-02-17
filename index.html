@@ -1,93 +1,210 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Icons -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Mcstr.work</title>
+  </head>
+  <body>
+    <!-- header -->
 
-<head>
-  <link rel="shortcut icon" href="images/favicon/code-solid.svg"></i>
-  <title>Miguel Castro</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  <link rel="stylesheet" href="assets/css/main.css" />
-</head>
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">Mcstr</a>
+        </div>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Work</a>
+            </li>
+            <li class="nav__item">
+              <a href="mailto:hello@mcstr.work" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
 
-<body class="is-preload">
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
 
-  <!-- Header -->
-  <header id="header">
-    <div class="inner">
-      <a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
-      <h1><strong>I am Miguel</strong></h1>
-      <h2>Junior Fullstack Developer</h2>
-      <h2 class="about">About me</h2>
-      <p>Dynamic and motivated professional now a junior full-stack developer with a proven record of building
-        relationships,
-        designing educational strategies, organizing multicultural teams, and managing projects from concept to
-        completion.
-        Dependable and organized team player with high communication skills. Adaptable and able to work independently.
-      </p>
-    </div>
-  </header>
+    <main class="l-main">
+      <!-- home -->
 
-  <!-- Main -->
-  <div id="main">
-    <!-- Two -->
-    <section id="two">
-      <h2>Recent Work</h2>
-      <div class="column">
-        <article class="col-6 col-12-xsmall work-item">
-          <a href="https://www.conmiperrete.com/" target="_blank" class="image fit thumb"><img
-              src="images/fulls/conmiperret.jpg" alt="" /></a>
-          <a href="https://www.conmiperrete.com" target="_blank">
-            <h3>Con mi perrete</h3>
-          </a>
-          <p><strong>*Work in progress* </strong>A Webapp to help people in Spain to find beaches and parks to enjoy them with their four legged friend, were users can review and add their own places so other users can discover them</p>
-        </article>
-        <article class="col-6 col-12-xsmall work-item">
-          <a href="https://www.chip-in.site/" target="_blank" class="image fit thumb"><img
-              src="images/fulls/chip-in.jpg" alt="" /></a>
-          <a href="https://www.chip-in.site/" target="_blank">
-            <h3>Chip-in</h3>
-          </a>
-          <p>A platform created with three fellow students in the last two weeks of the Le Wagon Coding Bootcamp. This
-            platform aims
-            to connect volunteers with charities in order to create a simple way for users to findand market community
-            service
-            opportunities.</p>
-        </article>
-        <article class="col-6 col-12-xsmall work-item">
-          <a href="https://intimasky.herokuapp.com/" class="image fit thumb"><img src="images/fulls/intimasky.jpg"
-              alt="" /></a>
-          <a href="https://intimasky.herokuapp.com/" target="_blank">
-            <h3>Intimasky</h3>
-          </a>
-          <p>A fun market place for fetish masks. Created with three fellow students during one week of the LeWagon
-            Coding Bootcamp.</p>
-        </article>
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Hi! <br />I'm <span class="home__title-color">Miguel</span><br />Web
+            Developer
+          </h1>
+          <a href="mailto:hello@mcstr.work" class="button">Contact</a>
+        </div>
 
-    </section>
+        <div class="home__social">
+          <a
+            href="https://github.com/mcstr"
+            class="home__social-icon"
+            target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/miguel-angel-castro-ram%C3%ADrez/"
+            class="home__social-icon"
+            target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+        </div>
+        <div class="home__img">
+          <img src="/images/avatar.jpg" alt="" />
+        </div>
+      </section>
 
+      <!-- about -->
 
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img
+              src="https://images.unsplash.com/photo-1518481612222-68bbe828ecd1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+              alt=""
+            />
+          </div>
+          <div>
+            <h2 class="about__subtitle">I'm Miguel</h2>
+            <p class="about__text">
+              Dynamic and motivated professional now a junior full-stack
+              developer with a proven record of building relationships,
+              designing educational strategies, organizing multicultural teams,
+              and managing projects from concept to completion. Dependable and
+              organized team player with high communication skills. Adaptable
+              and able to work independently.
+            </p>
+          </div>
+        </div>
+      </section>
 
-  </div>
-  <!-- Footer -->
-  <footer id="footer">
-    <div class="inner">
-      <ul class="icons">
-        <li><a href="https://github.com/mcstr" class="icon brands fa-github"><span class="label">Github</span></a></li>
-        <li><a href="https://www.linkedin.com/in/miguel-angel-castro-ram%C3%ADrez/"
-            class="icon brands fa-linkedin"><span class="label">Dribbble</span></a></li>
-        <li><a href="mailto:hello@mcstr.work" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-      </ul>
-    </div>
-  </footer>
+      <!-- skills -->
 
-  <!-- Scripts -->
-  <script src="assets/js/jquery.min.js"></script>
-  <!-- 			<script src="assets/js/jquery.poptrox.min.js"></script> -->
-  <script src="assets/js/browser.min.js"></script>
-  <script src="assets/js/breakpoints.min.js"></script>
-  <script src="assets/js/util.js"></script>
-  <script src="assets/js/main.js"></script>
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills__container bd-grid">
+          <div>
+            <h2 class="skills__subtitle">Professional Skills</h2>
+            <p class="skills__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
+              quasi recusandae voluptates dolorum aliquam doloribus.
+            </p>
 
-</body>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-html5 skills__icon"></i>
+                <span class="skills__name">HTML5</span>
+              </div>
+              <div class="skills__bar skills__html"></div>
+              <div>
+                <span class="skills__percentage">90%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-css3 skills__icon"></i>
+                <span class="skills__name">CSS3</span>
+              </div>
+              <div>
+                <span class="skills__percentage">85%</span>
+              </div>
+              <div class="skills__bar skills__css"></div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-javascript skills__icon"></i>
+                <span class="skills__name">JS</span>
+              </div>
+              <div>
+                <span class="skills__percentage">60%</span>
+              </div>
+              <div class="skills__bar skills__js"></div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxs-diamond skills__icon"></i>
+                <span class="skills__name">Ruby on Rails</span>
+              </div>
+              <div>
+                <span class="skills__percentage">70%</span>
+              </div>
+              <div class="skills__bar skills__ruby"></div>
+            </div>
+            <div>
+              <img src="" alt="" class="skills__img" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- work -->
 
+      <section class="work section" id="work">
+        <h2 class="section-title">Work</h2>
+
+        <div class="work__container bd-grid">
+          <div class="work__img">
+            <a href="/projects/conmiperrete.html" target="_blank"
+              ><img src="/images//fulls/conmiperret.jpg" alt=""
+            /></a>
+          </div>
+          <div class="work__img">
+            <a href="https://www.chip-in.site/" target="_blank"
+              ><img src="/images/fulls/chip-in.jpg" alt=""
+            /></a>
+          </div>
+          <div class="work__img">
+            <a href="https://intimask.herokuapp.com/" target="_blank"
+              ><img src="/images/fulls/intimasky.jpg" alt=""
+            /></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+
+    <footer class="footer">
+      <p class="footer__title">Miguel Castro</p>
+      <div class="footer__social">
+        <a href="https://github.com/mcstr" class="footer__icon" target="_blank"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/miguel-angel-castro-ram%C3%ADrez/"
+          class="footer__icon"
+          target="_blank"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+      </div>
+      <p>&#169; 2021 copyright all right reserved</p>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- mainjs -->
+    <script src="/js/main.js"></script>
+  </body>
 </html>
